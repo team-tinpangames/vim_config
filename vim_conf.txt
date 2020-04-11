@@ -1,0 +1,24 @@
+set number
+set title
+syntax on
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+
+set ignorecase
+ 
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
+
+nnoremap k gk
+nnoremap j gj
+vnoremap k gk
+vnoremap j gj
+nnoremap gk k
+nnoremap gj j
+vnoremap gk k
+vnoremap gj j
+inoremap jk <Esc>
